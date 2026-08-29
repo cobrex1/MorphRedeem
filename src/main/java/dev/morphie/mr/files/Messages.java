@@ -149,6 +149,8 @@ public class Messages implements Listener {
 		cfg.addDefault("Menu.Mining.Lore", list);
 		cfg.addDefault("Menu.Repair.Name", "&9&lRepair&8&l:");
 		cfg.addDefault("Menu.Repair.Lore", list);
+		cfg.addDefault("Menu.Spears.Name", "&9&lSpears&8&l:");
+		cfg.addDefault("Menu.Spears.Lore", list);
 		cfg.addDefault("Menu.Swords.Name", "&9&lSwords&8&l:");
 		cfg.addDefault("Menu.Swords.Lore", list);
 		cfg.addDefault("Menu.Taming.Name", "&9&lTaming&8&l:");

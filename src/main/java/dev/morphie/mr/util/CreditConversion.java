@@ -22,28 +22,30 @@ public class CreditConversion {
             if (ExperienceAPI.getLevel(player, SKILL) + CREDITS >= cap) {
                 String message = this.plugin.getMessage("SkillCapReached");
                 if (message.contains("%SKILL%")) {
-                    message = message.replaceAll("%SKILL%", SKILL);
+                    message = message.replace("%SKILL%", SKILL);
                 }
                 if (message.contains("%CAP%")) {
-                    message = message.replaceAll("%CAP%", "" + cap);
+                    message = message.replace("%CAP%", "" + cap);
                 }
                 if (message.contains("%LEVEL%")) {
-                    message = message.replaceAll("%LEVEL%", "" + (ExperienceAPI.getLevel(player, SKILL) + CREDITS));
+                    message = message.replace("%LEVEL%", "" + (ExperienceAPI.getLevel(player, SKILL) + CREDITS));
                 }
                 player.sendMessage(new StringUtils().addColor(this.plugin.getMessage("ErrorPrefix") + message));
             } else {
                 new DataManager(this.plugin).updateData(uuid, +CREDITS, "Credits_Spent", "add");
                 new DataManager(this.plugin).updateData(uuid, -CREDITS, "Credits", "remove");
-
-                ExperienceAPI.addLevel(player, SKILL, CREDITS);
-                String message = this.plugin.getMessage("CreditAssignmentSuccess");
-                if (message.contains("%SKILL%")) {
-                    message = message.replaceAll("%SKILL%", SKILL);
-                }
-                if (message.contains("%CREDITS%")) {
-                    message = message.replaceAll("%CREDITS%", "" + CREDITS);
-                }
-                player.sendMessage(new StringUtils().addColor(this.plugin.getMessage("Prefix") + message));
+                Bukkit.getScheduler().runTask(this.plugin, () -> {
+                    ExperienceAPI.addLevel(player, SKILL, CREDITS);
+                    String message = this.plugin.getMessage("CreditAssignmentSuccess");
+                    if (message.contains("%SKILL%")) {
+                        message = message.replace("%SKILL%", SKILL);
+                    }
+                    if (message.contains("%CREDITS%")) {
+                        message = message.replace("%CREDITS%", "" + CREDITS);
+                    }
+                    player.sendMessage(new StringUtils().addColor(this.plugin.getMessage("Prefix") + message)
+                    );
+                });
             }
         } else if (TYPE.equals("EXPERIENCE")) {
             int xp = this.plugin.getConfig().getInt("Settings.mcMMOSkillXP.XPpercredit");

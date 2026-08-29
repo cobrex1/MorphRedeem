@@ -1,19 +1,19 @@
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\Commands.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\CommandsTabCompleter.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\events\chat\RedeemChatEvent.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\events\JoinEvent.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\events\menus\RedeemMenuEvent.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\events\PlayerFileEvent.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\files\Messages.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\files\PlayerFileMethods.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\menus\RedeemMenu.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\MorphRedeem.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\CreditConversion.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\Database\MySQLConnection.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\Database\RedisConnection.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\DataManager.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\McMMOMethods.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\MetricsLite.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\MorphRedeemExpansion.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\StringUtils.java
-C:\Users\morph\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\UpdateChecker.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\StringUtils.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\MorphRedeemExpansion.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\MorphRedeem.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\events\chat\RedeemChatEvent.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\events\menus\RedeemMenuEvent.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\DataManager.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\UpdateChecker.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\Commands.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\events\PlayerFileEvent.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\Database\MySQLConnection.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\CommandsTabCompleter.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\Database\RedisConnection.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\MetricsLite.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\events\JoinEvent.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\CreditConversion.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\files\PlayerFileMethods.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\util\McMMOMethods.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\files\Messages.java
+F:\Minecraft Server Build projects\IdeaProjects\MorphRedeem\src\main\java\dev\morphie\mr\menus\RedeemMenu.java

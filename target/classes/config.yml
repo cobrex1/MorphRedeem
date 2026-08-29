@@ -68,6 +68,8 @@ Settings:
       ItemName: DIAMOND_PICKAXE
     Repair:
       ItemName: ANVIL
+    Spears:
+      ItemName: DIAMOND_SPEAR
     Swords:
       ItemName: DIAMOND_SWORD
     Taming:

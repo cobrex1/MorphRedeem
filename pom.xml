@@ -6,7 +6,7 @@
 
     <groupId>groupId</groupId>
     <artifactId>MorphRedeem</artifactId>
-    <version>1.3.1</version>
+    <version>1.3.2-SNAPSHOT1</version>
     <build>
         <finalName>MorphRedeem-${project.version}</finalName>
         <resources>
@@ -19,6 +19,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>8</source>
                     <target>8</target>
@@ -50,7 +51,7 @@
         </repository>
         <repository>
             <id>placeholderapi</id>
-            <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+            <url>https://repo.extendedclip.com/content/releases/</url>
         </repository>
         <repository>
             <id>neetgames</id>
@@ -74,13 +75,13 @@
         <dependency>
             <groupId>me.clip</groupId>
             <artifactId>placeholderapi</artifactId>
-            <version>2.11.6</version>
+            <version>2.12.3</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
-            <version>4.1.0</version>
+            <version>5.1.2</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
